@@ -23,6 +23,19 @@
 			-ms-font-smoothing: antialiased;
 			-o-font-smoothing: antialiased;
 			font-smoothing: antialiased;
+			color:#111;
+			-webkit-animation: 1s bling infinite alternate;
+			animation: 1s bling infinite alternate;
+		}
+		@-webkit-keyframes bling {
+		  0% { color:#111; }
+		  50% { color:#666; }
+		  100% { color:#aaa; }
+		}
+		@keyframes bling {
+		  0% { color:#111; }
+		  50% { color:#666; }
+		  100% { color:#aaa; }
 		}
 		h3{
 			margin:0 auto;
@@ -39,6 +52,18 @@
 			-ms-font-smoothing: antialiased;
 			-o-font-smoothing: antialiased;
 			font-smoothing: antialiased;
+			-webkit-animation: 6s rainbow infinite alternate;
+			animation: 6s rainbow infinite alternate;
+		}
+		@-webkit-keyframes rainbow {
+		  0% { background: rgba(0,0,0,0.618); }
+		  50% { background: rgba(0,0,0,0.3); }
+		  100% { background: rgba(0,0,0,0); }
+		}
+		@keyframes rainbow {
+		  0% { background: rgba(0,0,0,0.618); }
+		  50% { background: rgba(0,0,0,0.3); }
+		  100% { background: rgba(0,0,0,0); }
 		}
 	</style>
 </head>
