@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 }
 
 header {
@@ -113,4 +114,10 @@ h1 {
     100% {
         background: rgba(0, 0, 0, 0.1);
     }
+}
+
+#poetry{
+    text-align: right;
+    line-height: 46px;
+    padding-right: 28px;
 }
