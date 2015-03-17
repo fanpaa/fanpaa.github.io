@@ -13,6 +13,7 @@ $(function () {
         $("#block").css({left: '0%'});
         $("#sum").text('')
         $("#stage").on('swipeUp', swipeHandler)
+        $("#reset").prop('disabled', true)
     })
 
     $("#stage").on('swipeUp', swipeHandler)
@@ -28,6 +29,7 @@ $(function () {
                         duration: 10000, easing: 'linear', complete: function () {
                             $("#stage").off();
                             $("#sum").text('手速：' + i / 10.0 + '次/s')
+                            $("#reset").prop('disabled', false)
                         }
                     })
                 }
