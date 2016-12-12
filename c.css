@@ -1,6 +1,12 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-rendering: optimizelegibility;
+}
 body {
     margin: 0;
-    font-family: "PingFangSC-Light","Helvetica Neue", Helvetica, STHeiTi,"Microsoft YaHei", sans-serif;
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, STHeiti, 华文细黑, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 header {
     width: 100%;
